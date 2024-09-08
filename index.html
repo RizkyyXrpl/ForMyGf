@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>For My Love</title>
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+        
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'poppins';
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url("asset/bg.jpeg");
+            background-repeat: no-repeat;
+            background-size: cover;
+            color: #333;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffe9e9;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;
+            max-width: 600px;
+        }
+        img {
+            width: 200px;
+            height: 200px;
+            border-radius: 10%;
+            margin: 10px;
+            object-fit: cover;
+        }
+        h1 {
+            font-size: 24px;
+            color: #b56576;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+        audio {
+            margin-bottom: 20px;
+        }
+        button {
+            font-family: 'poppins';
+            background-color: #b56576;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 20px;
+            cursor: pointer;
+            font-size: 16px;
+            margin: 20px;
+        }
+        button:hover {
+            background-color: #845063;
+        }
+        #hidden-message {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>For My Capiii</h1>
+
+        <img src="asset/foto1.jpg" alt="Photo 1">
+        <!-- <img src="asset/foto2.jpg" alt="Photo 2"> -->
+
+        <p>Haiii sayaangg,</p>
+        <p id="hidden-message">sebelumnya aku mengucapkan banyak terimakasih ke kamu yang sudah menyempatkan, mengusahakan, menyisihkan uang untuk ketemu akuuu. 
+            Aku minta maaf ke kamu atas apa yang terjadi minggu ini, maaf aku banyak buat kamu sakit, buat kamu nangis, atau bahkan buat kamu trauma dan enggak mau lagi untuk ketemu aku.
+            Aku sadar aku salah bangett, aku egois, aku kurang bersyukur atas apa yang aku dapet. aku tauu kok aku beruntung banget bisa dapetin kmu, dan aku bisa dapetin cinta yang tulus dari kamu, yang dimana engga semua orang bisa dapetin itu.
+            Dan sekaraangg aku cuma pengen berusaha untuk jadii apaa kata kamu ituu hihi, idk bisa atau tida dan percaya atau tida tapi ndaa ada salahnya mencoba, dibanding aku harus menyesal.
+            Aku sayaaaangg bangett bangeett bangett sama kamuuuuu, jangan pergii yaa dari akuu, cape bole tapii kitaa lakuin sesuatu supaya rasa cape itu ilaang okkeeyy?!!
+            Lovee uuuu cintaakuuu❤️💕(●'◡'●)
+         </p>
+         <button id="toggle-message-btn" onclick="toggleMessage()">Baca Pesan</button>
+
+        <audio autoplay>
+            <source src="asset/penjaga_hatii.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+
+        <button onclick="alert('aaaaaaaasksksksk, I love you moree byububbbbb!!')">uu love mee byubb?? ❤️</button>
+        <button type="submit" onclick="sendMessage(event)">siniii chatt akuu</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
